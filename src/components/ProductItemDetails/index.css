@@ -1,0 +1,156 @@
+.Container {
+  display: flex;
+  height: 70%;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.error-view {
+  height: 350px;
+  width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.reviewContainer {
+  display: flex;
+  text-align: center;
+}
+.btnContainer {
+  display: flex;
+  background-color: #3b82f6;
+  color: #cbced2;
+  border-radius: 5px;
+  height: 40px;
+  width: 70px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.cartButton {
+  background-color: #3b82f6;
+  color: #cbced2;
+  border-radius: 5px;
+  align-self: flex-start;
+  border: 2px solid #3b82f6;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+.head {
+  color: #12022f;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.price {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.star {
+  height: 22px;
+  width: 22px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.ratingPara {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-left: 3px;
+}
+.reviewPara {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #616e7c;
+  padding-left: 10px;
+}
+.descriptionPara {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  text-align: justify;
+}
+.availability {
+  color: #171f46;
+}
+.Loader {
+  text-align: center;
+}
+.plus {
+  background-color: transparent;
+
+  margin: 5px;
+  border: none;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.line {
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 0.5px;
+
+  width: 100vw;
+}
+
+.product {
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.plusMinusContainer {
+  display: flex;
+}
+
+.quantity {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-bottom: 5px;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cartButton1 {
+  background-color: #3b82f6;
+  color: #cbced2;
+  border-radius: 5px;
+
+  border: 2px solid #3b82f6;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+.ul {
+  display: flex;
+  list-style-type: none;
+}
